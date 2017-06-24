@@ -1,0 +1,77 @@
+//���Ƶ�ǰ��Ŀ�İ�����ʽ
+//����������ظ�ʹ�õ���ɫ��
+@baseblue:#0071c5;
+@blue-light:#0081d6;
+@blue-border:#005ea4;
+@blue-dark:#0062a8;
+@border-left:#00aeef;
+//ҳ�������ʽ�Ķ���
+body{
+  font-family:"SimHei","SimHei","Arial",sans-serif;
+  color:#fff;
+  padding-top:60px;
+  background-color:@blue-dark;
+}
+//��������ʽ
+
+.navbar{
+  background-color:@baseblue;
+  border-color:@blue-border;
+  border-bottom:3px solid rgba(0,80,146.0,0.75);
+  .navbar-header{
+      .icon-bar{
+        background-color:#fff;
+      }
+    }
+  //Ʒ��ͼ��
+  .navbar-brand{
+    //�߿����ԭͼƬ�Ŀ�߱�Ҫһ��
+    width:64px;
+    height:42px;
+    padding:0px;
+    margin-top:10px;
+    margin-bottom:10px;
+    background:url("../img/hdr-spr.png")no-repeat 0 -512px;
+  }
+  //�����˵�
+  .navbar-nav>.active>a,
+  .navbar-nav>.active>a:focus,
+  .navbar-nav>.active>a:hover{
+    background:@baseblue;
+    color:#fff;
+    font-size:1.3em;
+    padding-left:15px;
+    padding-right:65px;
+  }
+  .dropdown-menu{
+    background-color:@baseblue;
+    li>a{
+      color:#fff;
+    }
+  }
+  .navbar-nav>li>a{
+    color:#fff;
+  }
+}
+//������ҳ�������ʽ
+.img-title{
+  position:absolute;
+  bottom:20px;
+  left:40px;
+}
+.navbar .navbar-nav > .active > a{
+  height:60px;
+  width:159px;
+}
+.navbar .dropdown-menu li > a:hover{
+  color:#000 !important;
+}
+#footer{
+  background-color:#fff;
+  h4{
+    color:#7B7579;
+  }
+}
+#mybody{
+  margin-bottom:30px;
+}
